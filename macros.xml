@@ -1,0 +1,9 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="clone row">
+      <action id="Console.TableResult.CloneRow" />
+      <action id="Console.TableResult.CloneRow" />
+      <action id="Console.TableResult.CloneRow" />
+    </macro>
+  </component>
+</application>

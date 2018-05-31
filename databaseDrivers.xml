@@ -10,7 +10,7 @@
     </driver>
     <driver id="azure.ms">
       <artifact name="SQL Server" use="true" />
-      <option name="auto-sync" value="true" />
+      <option name="auto-sync" value="false" />
       <option name="send-app-info" value="false" />
     </driver>
     <driver id="oracle">
@@ -78,6 +78,12 @@
       <option name="auto-commit" value="true" />
       <option name="send-app-info" value="true" />
       <option name="schema-control" value="AUTOMATIC" />
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/IntelliJIdea13/jdbc-drivers/mysql-connector-license.txt</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Library/Preferences/IntelliJIdea13/jdbc-drivers/mysql-connector-java-5.1.29-bin.jar</url>
+      </library>
     </driver>
     <driver id="hsqldb.remote">
       <artifact name="HSQLDB" use="true" />
